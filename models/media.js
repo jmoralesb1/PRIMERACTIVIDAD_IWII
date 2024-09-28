@@ -43,25 +43,25 @@ const MediaSchema = Schema ({
         required: [true, 'Año requerido']
     },
 
-    genero: {
+    Genero: {
         type: Schema.Types.ObjectId,
         ref: 'Genero', 
         required: true
     },
 
-    director: {
+    Director: {
         type: Schema.Types.ObjectId,
         ref: 'Director', 
         required: true
     },
 
-    productora: {
+    Productora: {
         type: Schema.Types.ObjectId,
         ref: 'Productora', 
         required: true
     },
 
-    tipo: {
+    Tipo: {
         type: Schema.Types.ObjectId,
         ref: 'Tipo', 
         required: true

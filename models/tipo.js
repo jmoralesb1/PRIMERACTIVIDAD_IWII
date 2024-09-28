@@ -18,7 +18,7 @@ const TipoSchema = Schema ({
 
     descripcion: {
         type: String,
-        required: [true, 'Descripción requerida']
+        required: [true, 'Descripcion requerida']
     }
 
 });
